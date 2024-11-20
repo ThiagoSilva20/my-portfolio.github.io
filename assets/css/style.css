@@ -1,0 +1,68 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Sessão de portfólio */
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    all: unset; 
+    cursor: pointer;
+}
+
+/* Estilos de cada item */
+.portfolio-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Colunas */
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Rodapé */
+footer {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
